@@ -6,13 +6,7 @@ const repeatString = function(str, numberOfTimes) {
     }
 
     for(let i = 1; i <= numberOfTimes; i++){
-        if(stringContainer === ""){
-            stringContainer = str;
-
-        } else{
             stringContainer += str;
-        }
-        
     }
 
     return stringContainer
